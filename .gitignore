@@ -31,6 +31,11 @@ yarn-error.log*
 
 # env files (can opt-in for commiting if needed)
 .env*
+!.env.example
+
+# private working files (drafts, notes with security findings, raw screenshots)
+/linkedin/
+/.claude/
 
 # vercel
 .vercel
